@@ -1,0 +1,34 @@
+name: Build and Deploy Sphinx Docs
+
+on:
+  push:
+    branches:
+      - main  # adjust this if your default branch is different
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Set Up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.10"
+          architecture: x64
+
+      - name: Install dev requirements
+        working-directory: ./docs
+        run: pip install -r requirements.txt
+
+      - name: Build Sphinx Documentation
+        working-directory: ./docs
+        run: make current-docs
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/_build
+
