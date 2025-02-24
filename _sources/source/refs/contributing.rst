@@ -108,8 +108,8 @@ Remplacez `username` par votre nom d'utilisateur GitHub.
 
 22. La PR sera approuvée ou rejetée après examen par l'équipe.
 
-Nouvelles modifications : 
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Nouvelles modifications 
+-----------------------
 
 Pour continuer avec une nouvelle modification, revenez à l'étape 3.  
 Pour revenir à votre PR et apporter de nouvelles modifications :
@@ -135,3 +135,8 @@ Pour revenir à votre PR et apporter de nouvelles modifications :
     git push fork
 
 La pull request sera automatiquement mise à jour.
+
+Bon à savoir sur l'écriture en RST
+----------------------------------
+
+(à compléter)
