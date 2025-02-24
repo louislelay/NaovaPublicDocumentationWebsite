@@ -1,4 +1,4 @@
-### Développeurs Naova
+### Développeurs de Naova
 
 Voici la liste officielle des développeurs de Naova.  
 Veuillez garder les  listes triées par **ordre alphabétique**.

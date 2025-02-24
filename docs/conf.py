@@ -20,9 +20,9 @@ import os
 
 # -- Project information -----------------------------------------------------
 
-project = "Documentation des projets Naova"
-copyright = "2024-2025, Les développeurs du projet : Documentation des projets Naova"
-author = "Les développeurs du projet : Documentation des projets Naova"
+project = "Documentation des projets de Naova"
+copyright = "2024-2025, Les développeurs du projet : Documentation des projets de Naova"
+author = "Les développeurs du projet : Documentation des projets de Naova"
 
 # -- General configuration ---------------------------------------------------
 
@@ -153,7 +153,7 @@ language = "en"
 
 import sphinx_book_theme
 
-html_title = "Naova Projects Documentation"
+html_title = "Documentation des projets de Naova"
 html_theme_path = [sphinx_book_theme.get_html_theme_path()]
 html_theme = "sphinx_book_theme"
 html_favicon = "source/_static/favicon.ico"
@@ -176,7 +176,7 @@ html_theme_options = {
     "show_toc_level": 1,
     "use_sidenotes": True,
     "logo": {
-        "text": "Naova Projects Documentation",
+        "text": "Documentation des projets de Naova",
         "image_light": "source/_static/naova_exp.png",
         "image_dark": "source/_static/naova_exp_dark.png",
     },
