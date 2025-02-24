@@ -32,7 +32,8 @@ Veuillez garder les  listes triées par **ordre alphabétique**.
 - Liliana Palma-Espinoza 
 - Louis Le Lay 
 - Marc-Antoine Lussier 
-- Marc-Olivier Bisson 
+- Marc-Olivier Bisson
+- Marie Hamady 
 - Mathieu Gagnon 
 - Mathias Bossaerts 
 - Margarita Pak 
@@ -42,6 +43,7 @@ Veuillez garder les  listes triées par **ordre alphabétique**.
 - Paul Joseph Beltran 
 - Pelayo García Seco 
 - Piero Castrillon Gamarra 
+- Pierre Teixeira
 - Robyn Girardeau 
 - Simon Prud'Homme 
 - Stacy-Linsay Octave 
