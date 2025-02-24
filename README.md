@@ -35,4 +35,4 @@ Cette documentation est sous la licence BSD-3-Clause. Pour plus de détails, veu
 
 ## Remerciements
 
-Merci aux membres de Naova pour leurs contributions et leur engagement dans ce projet de documentation.
+Merci aux membres de Naova pour leurs contributions et leur engagement dans ce projet de documentation. Pour voir la liste complète des développeurs des projets de Naova, consultez le fichier [CONTRIBUTORS.md](https://github.com/Naova/Naova.github.io/blob/main/CONTRIBUTORS.md).
