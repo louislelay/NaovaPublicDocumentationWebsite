@@ -177,8 +177,8 @@ html_theme_options = {
     "use_sidenotes": True,
     "logo": {
         "text": "Naova Projects Documentation",
-        "image_light": "source/_static/ets.png",
-        "image_dark": "source/_static/ets.png",
+        "image_light": "source/_static/naova_exp.png",
+        "image_dark": "source/_static/naova_exp_dark.png",
     },
     "icon_links": [
         {
