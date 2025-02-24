@@ -20,9 +20,9 @@ import os
 
 # -- Project information -----------------------------------------------------
 
-project = "Naova Projects Documentation"
-copyright = "2024-2025, The Naova Projects Documentation Project Developers."
-author = "The Naova Projects Documentation Project Developers."
+project = "Documentation des projets Naova"
+copyright = "2024-2025, Les développeurs du projet : Documentation des projets Naova"
+author = "Les développeurs du projet : Documentation des projets Naova"
 
 # -- General configuration ---------------------------------------------------
 
