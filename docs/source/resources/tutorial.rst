@@ -1,7 +1,7 @@
 .. _tutorial:
 
-Tutoriel
-========
+Tutoriels
+=========
 
 Mettre en place son premier code peut parfois sembler complexe. 
 Cette page guide pas à pas dans l'implémentation d'un exemple simple : 
