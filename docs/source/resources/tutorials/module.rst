@@ -13,7 +13,7 @@ Le code
 
    .. code-block:: cpp
       :linenos:
-      :emphasize-lines: 1-7, 8-11, 13-21, 24-29, 31-44
+      :emphasize-lines: 1-7, 9-11, 13-15, 17-21, 24-29, 31-44
 
       /**
       * @file ColorDetector.h
@@ -181,7 +181,6 @@ Explications
 Tout d'abord, il faut savoir qu'un module suit toujours une structure précise. Par exemple :
 
 .. code-block:: cpp
-   :linenos:
 
    MODULE(SimpleBallLocator,
    {,
@@ -216,7 +215,6 @@ Ensuite, pour notre module de détection d'objets rouges, nous allons procéder 
    - Commencez par un commentaire précisant le nom du fichier, l’objectif du module et l’auteur :
 
      .. code-block:: cpp
-        :linenos:
 
         /*
         * @file ColorDetector.h
@@ -227,10 +225,9 @@ Ensuite, pour notre module de détection d'objets rouges, nous allons procéder 
         */
 
    - Incluez les représentations nécessaires (CameraInfo, CameraImage, ColorDetect).  
-     (Référez-vous au tutoriel :doc:`representation` pour la création de *ColorDetect*).
+     (Référez-vous au tutoriel :ref:`representation` pour la création de *ColorDetect*).
 
      .. code-block:: cpp
-        :linenos:
 
         #include "Representations/Infrastructure/CameraInfo.h"
         #include "Representations/Infrastructure/CameraImage.h"
@@ -240,7 +237,6 @@ Ensuite, pour notre module de détection d'objets rouges, nous allons procéder 
      Vous pouvez définir des paramètres si nécessaire, mais ce n'est pas le cas ici.
 
      .. code-block:: cpp
-        :linenos:
 
         MODULE (ColorDetector,
         {,
@@ -252,7 +248,6 @@ Ensuite, pour notre module de détection d'objets rouges, nous allons procéder 
    - Déclarez la classe en respectant la convention de nommage (nom du module suivi de *Base*).
 
      .. code-block:: cpp
-        :linenos:
 
         class ColorDetector : public ColorDetectorBase
         {
@@ -264,7 +259,6 @@ Ensuite, pour notre module de détection d'objets rouges, nous allons procéder 
    - Comme pour le fichier d'en-tête, commencez par un commentaire expliquant le contenu du fichier.
 
      .. code-block:: cpp
-        :linenos:
 
         /**
         * @file ColorDetector.cpp
@@ -277,7 +271,6 @@ Ensuite, pour notre module de détection d'objets rouges, nous allons procéder 
    - Incluez ensuite le fichier d'en-tête, déclarez le module avec *MAKE_MODULE* et incluez les outils nécessaires :
 
      .. code-block:: cpp
-        :linenos:
 
         #include "ColorDetector.h"
 
@@ -290,7 +283,6 @@ Ensuite, pour notre module de détection d'objets rouges, nous allons procéder 
      Pour le débogage, un *OUTPUT_TEXT* est utilisé.
 
      .. code-block:: cpp
-        :linenos:
 
         void ColorDetector::update(ColorDetect& theColorDetect)
         {
@@ -308,3 +300,4 @@ Ensuite, pour notre module de détection d'objets rouges, nous allons procéder 
         }
 
 En suivant cette logique, vous venez de créer un module qui détecte des objets rouges.
+Passez maintenant au tutoriel suivant pour créer une représentation.
