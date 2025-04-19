@@ -70,6 +70,7 @@ Table des matieres
    source/refs/additional_resources
    source/refs/contributing
    source/refs/bibliography
+   source/refs/changelog
 
 .. toctree::
     :hidden:
