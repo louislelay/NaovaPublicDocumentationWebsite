@@ -195,15 +195,15 @@ templates_path = [
     "_templates",
 ]
 
-# Whitelist pattern for remotes
-smv_remote_whitelist = r"^.*$"
-# Whitelist pattern for branches (set to None to ignore all branches)
-smv_branch_whitelist = os.getenv("SMV_BRANCH_WHITELIST", r"^(main|devel)$")
-# Whitelist pattern for tags (set to None to ignore all tags)
-smv_tag_whitelist = os.getenv("SMV_TAG_WHITELIST", r"^v[1-9]\d*\.\d+\.\d+$")
-# html_sidebars = {
-#     "**": ["navbar-logo.html", "versioning.html", "icon-links.html", "search-field.html", "sbt-sidebar-nav.html"]
-# }
+smv_tag_whitelist = r'^v\d+\.0$'    # pour ne construire que les tags du type v1.0, v2.0 etc
+smv_branch_whitelist = r'^main$'    # pour ne construire que la branche main
+smv_remote_whitelist = r'^origin$'  # pour éviter les forks ou upstream
+
+html_context = {
+    'display_github': True,
+    'display_version': True,
+    'versions': []
+}
 
 html_sidebars = {
     "**": ["navbar-logo.html", "icon-links.html", "search-field.html", "sbt-sidebar-nav.html"]
