@@ -7,14 +7,15 @@ Ce fichier suit les changements notables apportés à la documentation du projet
 
 ---
 
-## [1.0]
+## [v1.0]
+
 ### Ajouté
 - Fonction de génération multiversion de la documentation.
 - Support du tag Git `vX.0` uniquement.
 
 ---
 
-## [v0.1] - Unreleased
+## [v0.1]
 
 ### Ajouté
 - Création des pages d’installation, de configuration et des tutos de création de module.
@@ -38,11 +39,9 @@ Ce fichier suit les changements notables apportés à la documentation du projet
 
 ---
 
-## [v0.0] - 2025-02-22
+## [v0.0]
 
 ### Ajouté
 - Initialisation du dépôt.
 - Première structure de site (fichiers `.rst`, configuration Sphinx).
 - Fichier `LICENSE`.
-
----
