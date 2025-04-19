@@ -7,6 +7,13 @@ Ce fichier suit les changements notables apportés à la documentation du projet
 
 ---
 
+## [1.0]
+### Ajouté
+- Fonction de génération multiversion de la documentation.
+- Support du tag Git `vX.0` uniquement.
+
+---
+
 ## [v0.1] - Unreleased
 
 ### Ajouté
