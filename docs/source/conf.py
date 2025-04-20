@@ -198,6 +198,7 @@ templates_path = [
 smv_tag_whitelist = r'^v\d+\.0$'    # pour ne construire que les tags du type v1.0, v2.0 etc
 smv_branch_whitelist = r'^main$'    # pour ne construire que la branche main
 smv_remote_whitelist = r'^origin$'  # pour éviter les forks ou upstream
+smv_latest_version = 'main'
 
 html_context = {
     'display_github': True,
