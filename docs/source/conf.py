@@ -83,7 +83,7 @@ autodoc_member_order = "bysource"
 # inherit docstrings from base classes
 autodoc_inherit_docstrings = True
 # BibTeX configuration
-bibtex_bibfiles = ["source/_static/refs.bib"]
+bibtex_bibfiles = ["_static/refs.bib"]
 # generate autosummary even if no references
 autosummary_generate = True
 autosummary_generate_overwrite = False
@@ -156,7 +156,7 @@ import sphinx_book_theme
 html_title = "Documentation des projets de Naova"
 html_theme_path = [sphinx_book_theme.get_html_theme_path()]
 html_theme = "sphinx_book_theme"
-html_favicon = "source/_static/favicon.ico"
+html_favicon = "_static/favicon.ico"
 html_show_copyright = True
 html_show_sphinx = False
 html_last_updated_fmt = ""  # to reveal the build date in the pages meta
@@ -164,7 +164,7 @@ html_last_updated_fmt = ""  # to reveal the build date in the pages meta
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ["source/_static/css"]
+html_static_path = ["_static/css"]
 html_css_files = ["custom.css"]
 
 html_theme_options = {
@@ -177,8 +177,8 @@ html_theme_options = {
     "use_sidenotes": True,
     "logo": {
         "text": "Documentation des projets de Naova",
-        "image_light": "source/_static/naova_exp.png",
-        "image_dark": "source/_static/naova_exp_dark.png",
+        "image_light": "_static/naova_exp.png",
+        "image_dark": "_static/naova_exp_dark.png",
     },
     "icon_links": [
         {

@@ -50,6 +50,7 @@ fi
 cd "${NAOVA_DOC_PATH}/docs"
 ${python_exe} -m pip install -r requirements.txt > /dev/null
 
+cd "source"
 # # Build the documentation
 ${python_exe} -m sphinx -b html -d _build/doctrees . _build/current
 
