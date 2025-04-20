@@ -21,7 +21,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Build Sphinx Documentation (Multi-Version)
-        run: sphinx-multiversion docs docs/_build/html
+        run: sphinx-multiversion docs/source docs/_build/html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
